@@ -10,11 +10,11 @@
 site_name: "Mandaryn Architecture"
 site_description: "Documentatie van het Mandaryn Architecture ecosysteem"
 site_author: "Mandaryn Team"
-site_url: "https://hans-blok.github.io/mandarin-agents/"
+site_url: "https://hans-blok.github.io/flora-ldr5/"
 
 # Optioneel: repository referentie
-# repo_name: "mandarin-startup"
-# repo_url: "https://github.com/username/mandarin-startup"
+# repo_name: "flora-ldr5"
+# repo_url: "https://github.com/hans-blok/flora-ldr5"
 # edit_uri: "edit/main/docs/"
 # mkdocs serve -a 127.0.0.1:8005
 
@@ -119,8 +119,10 @@ markdown_extensions:
 # ------------------------------------------------------------
 nav:
   - Home: index.md
-  - Agents Overzicht: agents-overzicht.md
-  - Agents Prompts Overzicht: agents-prompts-overzicht.md
+  - Mijn Planten per Border — Perceel nr. 5: mijn-planten-borders.md
+  - Mestplan — Perceel nr. 5: mestplan.md
+  - Boodschappen:
+    - Boodschappen — 4 april 2026: boodschappen/boodschappen-2026-04-04.md
 
 # ------------------------------------------------------------
 # 8. Extra Configuratie
