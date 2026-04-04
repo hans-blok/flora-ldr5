@@ -1,0 +1,244 @@
+/* ============================================================
+   Tuin — Perceel nr. 5
+   Stijl: Natuur, Rust, Groen
+   ============================================================ */
+
+/* --- Kleurpalet (Material theme variabelen overschrijven) --- */
+:root {
+  --md-primary-fg-color:        #2d6a4f;
+  --md-primary-fg-color--light: #52b788;
+  --md-primary-fg-color--dark:  #1b4332;
+  --md-accent-fg-color:         #e9c46a;
+  --md-accent-fg-color--transparent: rgba(233, 196, 106, 0.1);
+  --md-default-bg-color:        #faf7f0;
+  --md-default-fg-color:        #2c2c2c;
+  --md-default-fg-color--light: #666;
+  --md-default-fg-color--lighter: #999;
+  --md-code-bg-color:           #f0ece4;
+  --md-code-fg-color:           #2c2c2c;
+  --md-typeset-a-color:         #2d6a4f;
+
+  /* Sidebar achtergrond */
+  --md-nav-fg-color:            #2c2c2c;
+}
+
+/* --- Pagina-achtergrond --- */
+body,
+.md-main {
+  background-color: #faf7f0;
+}
+
+/* --- Header --- */
+.md-header {
+  background-color: #2d6a4f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.md-header__title {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* --- Navigatietabs (bovenaan) --- */
+.md-tabs {
+  background-color: #1b4332;
+}
+
+.md-tabs__link {
+  opacity: 0.8;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
+/* --- Zijbalk / sidebar --- */
+.md-sidebar {
+  background-color: #f2ede3;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover {
+  color: #2d6a4f;
+  font-weight: 500;
+}
+
+.md-nav__link--active {
+  border-left: 3px solid #52b788;
+  padding-left: 0.5rem;
+}
+
+/* --- Contentgebied --- */
+.md-content__inner {
+  max-width: 920px;
+  padding-top: 1.5rem;
+}
+
+/* --- Typografie: koppen --- */
+.md-typeset h1 {
+  color: #1b4332;
+  font-weight: 700;
+  border-bottom: 3px solid #52b788;
+  padding-bottom: 0.45rem;
+  margin-bottom: 1.2rem;
+}
+
+.md-typeset h2 {
+  color: #2d6a4f;
+  font-weight: 600;
+  border-left: 4px solid #52b788;
+  padding-left: 0.8rem;
+  margin-top: 2rem;
+}
+
+.md-typeset h3 {
+  color: #40916c;
+  font-weight: 600;
+}
+
+.md-typeset h4 {
+  color: #52b788;
+}
+
+/* --- Links --- */
+.md-typeset a {
+  color: #2d6a4f;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(82, 183, 136, 0.5);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.md-typeset a:hover {
+  color: #1b4332;
+  border-bottom-color: #1b4332;
+}
+
+/* --- Tabellen --- */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #2d6a4f;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.6rem 0.9rem;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.5rem 0.9rem;
+  border-bottom: 1px solid #e8e2d6;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background-color: #f4f0e6;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background-color: #eaf4ee;
+}
+
+/* --- Code blokken --- */
+.md-typeset pre,
+.md-typeset code {
+  background-color: #f0ece4;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.md-typeset pre {
+  border-left: 4px solid #52b788;
+  padding: 1rem;
+}
+
+/* --- Admonitions (aandachtsblokken) --- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-left-width: 4px;
+}
+
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: #52b788;
+}
+
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset details.note > summary {
+  background-color: rgba(82, 183, 136, 0.12);
+}
+
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #e9c46a;
+}
+
+/* --- Horizontale scheidingslijn --- */
+.md-typeset hr {
+  border-color: #d0c8ba;
+  margin: 2rem 0;
+}
+
+/* --- Lijstitems --- */
+.md-typeset ul li::marker {
+  color: #52b788;
+}
+
+.md-typeset ol li::marker {
+  color: #2d6a4f;
+  font-weight: 600;
+}
+
+/* --- Footer --- */
+.md-footer {
+  background-color: #1b4332;
+}
+
+.md-footer-meta {
+  background-color: #152e23;
+}
+
+/* --- Zoekbalk --- */
+.md-search__input {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* --- Inhoudsopgave (TOC) rechts --- */
+.md-nav--secondary .md-nav__link--active {
+  color: #2d6a4f;
+  font-weight: 600;
+}
+
+/* --- Checkbox (taakllijsten) --- */
+.md-typeset .task-list-indicator::before {
+  background-color: #52b788;
+}
+
+/* --- Scrollbar (subtiel groen tintje) --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2ede3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #52b788;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d6a4f;
+}
