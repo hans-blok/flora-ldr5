@@ -7,16 +7,10 @@
 # ------------------------------------------------------------
 # 1. Site Identiteit
 # ------------------------------------------------------------
-site_name: "Mandaryn Architecture"
-site_description: "Documentatie van het Mandaryn Architecture ecosysteem"
-site_author: "Mandaryn Team"
+site_name: "Tuin — Langs de Rijn 5"
+site_description: "Plannen voor onderhoud een aanpassen tuin Langs de Rijn 5"
+site_author: "Hans Blok"
 site_url: "https://hans-blok.github.io/flora-ldr5/"
-
-# Optioneel: repository referentie
-# repo_name: "flora-ldr5"
-# repo_url: "https://github.com/hans-blok/flora-ldr5"
-# edit_uri: "edit/main/docs/"
-# mkdocs serve -a 127.0.0.1:8005
 
 # ------------------------------------------------------------
 # 2. Documentatie Bron
@@ -43,20 +37,18 @@ theme:
     - search.suggest
     - search.highlight
   palette:
-    # Wordt overschreven door custom CSS (Mandarin oranje #e55039)
-    primary: "deep-orange"
-    accent: "orange"
+    primary: "custom"
+    accent: "custom"
   font:
-    text: "Segoe UI"
-    code: "Consolas"
-  logo: "assets/mandarin-logo-m.png"
-  favicon: "assets/mandarin-logo-m.png"
+    text: "Lato"
+    code: "Source Code Pro"
 
 # ------------------------------------------------------------
 # 4. Custom Styling - Mandarin Stylesheet
 # Eigendom: Presentatie Architect
 # ------------------------------------------------------------
-extra_css: []
+extra_css:
+  - assets/stylesheets/tuin.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@11/dist/mermaid.min.js
@@ -106,7 +98,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_div_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -119,10 +111,10 @@ markdown_extensions:
 # ------------------------------------------------------------
 nav:
   - Home: index.md
-  - Mijn Planten per Border — Perceel nr. 5: mijn-planten-borders.md
-  - Mestplan — Perceel nr. 5: mestplan.md
+  - Mijn Planten & Borders: mijn-planten-borders.md
+  - Mestplan: mestplan.md
   - Boodschappen:
-    - Boodschappen — 4 april 2026: boodschappen/boodschappen-2026-04-04.md
+    - Boodschappen — april 2026: boodschappen/boodschappen-2026-04-04.md
 
 # ------------------------------------------------------------
 # 8. Extra Configuratie
@@ -134,13 +126,6 @@ extra:
 # ------------------------------------------------------------
 # 9. Copyright
 # ------------------------------------------------------------
-copyright: "Copyright &copy; 2026 Maxia Consultancy. Alle rechten voorbehouden."
+copyright: "Copyright geen; 2026 Hans Blok. Open Source"
 
-# ------------------------------------------------------------
-# Metadata
-# ------------------------------------------------------------
-# Gegenereerd door: Publicatie Steward
-# Template: publicatie-steward.mkdocs.template.md
-# Stylesheet: docs/styles/mandarin.css (Presentatie Architect)
-# Datum: 2026-02-06
-# Versie: 1.0
+

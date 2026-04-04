@@ -1,6 +1,8 @@
-# Perceel nr. 5 — Tuindocumentatie
+# Langs de Rijn 5 - Tuin
 
-Welkom bij de tuindocumentatie voor **Perceel nr. 5**.
+![Kaart borders, windrichting en zon](assets/kaart-borders-windrichting-zon.svg)
+
+Welkom bij de de site voor tuinonderhoud bij Langs de Rijn 5
 
 ## Inhoud
 
