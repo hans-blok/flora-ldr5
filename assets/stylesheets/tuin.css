@@ -3,20 +3,25 @@
    Stijl: Natuur, Rust, Groen
    ============================================================ */
 
-/* --- Kleurpalet (Material theme variabelen overschrijven) --- */
-:root {
+/* --- Kleurpalet (Material theme variabelen overschrijven) ---
+   Gebruik [data-md-color-primary] selector: hogere prioriteit dan :root
+   wanneer Material's JS de body-attributen zet na CSS-laden. --- */
+[data-md-color-primary="custom"] {
   --md-primary-fg-color:        #2d6a4f;
   --md-primary-fg-color--light: #52b788;
   --md-primary-fg-color--dark:  #1b4332;
   --md-accent-fg-color:         #e9c46a;
   --md-accent-fg-color--transparent: rgba(233, 196, 106, 0.1);
+  --md-typeset-a-color:         #2d6a4f;
+}
+
+[data-md-color-scheme="default"] {
   --md-default-bg-color:        #faf7f0;
   --md-default-fg-color:        #2c2c2c;
   --md-default-fg-color--light: #666;
   --md-default-fg-color--lighter: #999;
   --md-code-bg-color:           #f0ece4;
   --md-code-fg-color:           #2c2c2c;
-  --md-typeset-a-color:         #2d6a4f;
 
   /* Sidebar achtergrond */
   --md-nav-fg-color:            #2c2c2c;
