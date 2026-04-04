@@ -8,7 +8,20 @@
 
 ## Situatie
 
-Zone 11 is een lange strook langs de W/ZW-perceelgrens (richting NNO–ZZW). In ochtend schaduw (🌑), gedeeltelijk middagzon (⛅), directe westenzon in de namiddag (☀️). Huidig gebruik: grasveldje met varens.
+Zone 11 is een lange strook langs de **westgrens** van het perceel (richting NNO–ZZW).
+
+- **Zone 10** (ten noorden) = NW-rand langs straat — apart zone
+- **Zone 11** = W-grens, grenst aan buren aan de westzijde
+
+**Afmetingen:**
+
+| | Lengte | Breedte | Oppervlak |
+|---|---|---|---|
+| Totale zone 11 | 800 cm | 250 cm | **20 m²** |
+| Gazongedeelte | 600 cm | 250 cm | **15 m²** |
+| Overige (varens e.d.) | 200 cm | 250 cm | 5 m² |
+
+**Zon/schaduw:** 🌑 ochtend — ⛅ middag — ☀️ namiddag (~4u zon/dag, halfschaduw)
 
 **Aanleiding:** grasveldje leeg schapen en opnieuw inzaaien; varens behouden.
 
@@ -42,7 +55,7 @@ Foto's opgenomen: `fotos/zone-11.foto.20260404.1.jpg`, `fotos/zone-11.foto.20260
 ### Bodembewerking na afplaggen
 1. Losmaken met grondvork (15–20 cm diep)
 2. Grofste kluiten breken
-3. Eventueel 2–3 cm rijpe compost inwerken (verbetert vochtvastheid)
+3. **2 cm rijpe compost inwerken** over 15 m² = ~300 L = 8 zakken à 40 L (verbetert vochtvastheid en structuur)
 4. Egaliseren met hark
 
 ---
@@ -64,8 +77,13 @@ Verkrijgbaar als "schaduwgazon" of "lawn for shade" bij tuincentrum / zaadspecia
 - **Voorkeur: mei** — bodem >10 °C, voldoende vocht, lange groeiperiode voor de zomer
 - Alternatief: **augustus–september** — grond nog warm, minder concurrentie onkruid
 
+### Hoeveelheid
+- Gazonoppervlak: **15 m²**
+- Zaaidichtheid: 35 g/m²
+- **Benodigd: ~525 g → koop 1 zakje van 750 g of 1 kg** (marge voor dunne plekken)
+
 ### Methode
-1. Zaai 30–40 g/m² (schaduwmix heeft iets hogere dichtheid nodig)
+1. Zaai 35 g/m² (schaduwmix heeft iets hogere dichtheid nodig)
 2. Hark licht in (max. 0,5 cm diep)
 3. Aandrukken met plankje of lege tuinrol
 4. Begieten: zacht, dagelijks gedurende eerste 3–4 weken
@@ -90,12 +108,17 @@ Verkrijgbaar als "schaduwgazon" of "lawn for shade" bij tuincentrum / zaadspecia
 
 ---
 
-## Materiaallijst
+## Boodschappenlijst tuinwinkel
+
+| Wat | Hoeveelheid | Merk / type | Opmerking |
+|-----|-------------|-------------|-----------|
+| **Schaduwgazon zaadmix** | 1 zak 750 g of 1 kg | Barenbrug "Schaduw & Fijn", Moowy "For Shade", of DCM Schaduwgras | Let op: **niet** standaard gazonmix |
+| **Rijpe compost of tuinaarde** | 8 zakken à 40 L | Bijv. Pokon, Substral of huismerk | Of 1 halve bigbag (~0,5 m³) als dat goedkoper is |
+
+## Gereedschap (controleer wat je hebt)
 
 - [ ] Zodenschepper / plaggenschop
 - [ ] Grondvork
-- [ ] Rijpe compost (~2 zakken à 40L, afhankelijk van oppervlak)
-- [ ] Schaduwgazon zaadmix (bijv. Barenbrug of Moowy Shade)
 - [ ] Hark
 - [ ] Tuinrol of plankje om aan te drukken
 - [ ] Sproeilans / regensproeier (fijne nevel)
