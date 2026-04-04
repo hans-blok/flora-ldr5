@@ -1,0 +1,25 @@
+Gearchiveerd: 1 bestaande log(s) naar logs/history/
+
+======================================================================
+Aggregeer Tasks naar C:\git\flora\.vscode\tasks.json
+Bron: C:\git\mandarin-agents
+======================================================================
+
+ℹ️  fnd.01 automatisch toegevoegd (cross-cutting fase)
+Geconfigureerde fasen in beleid-workspace.md: ['tmt.01']
+Effectieve fasen (incl. fnd.01): ['fnd.01', 'tmt.01']
+
+Relatief pad naar agent source: ../mandarin-agents
+
+--- Fase: fnd.01 ---
+  + artefacten\fnd\fnd.01.documentatie-omvormer\tasks\fnd-01.documentatie-omvormer.tasks.json
+  + artefacten\fnd\fnd.01.ecosysteem-coordinator\tasks\fnd-01.ecosysteem-coordinator.tasks.json
+
+--- Fase: tmt.01 ---
+  (geen task-bestanden gevonden voor tmt.01)
+
+Totaal: 4 tasks uit 2 bestanden
+
+✓ Geschreven naar: C:\git\flora\.vscode\tasks.json
+Log: logs\aggregeer-tasks-20260404-152018.log
+======================================================================

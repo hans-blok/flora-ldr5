@@ -1,0 +1,19 @@
+======================================================================
+Aggregeer Tasks naar C:\git\flora\.vscode\tasks.json
+Bron: C:\git\mandarin-agents
+======================================================================
+
+✗ Verwijderd: C:\git\flora\.vscode\tasks.json
+
+Geconfigureerde fasen in beleid-workspace.md: ['[VALUE_STREAM_CODE].01', '[VALUE_STREAM_CODE].02']
+
+Relatief pad naar agent source: ../mandarin-agents
+
+--- Fase: [VALUE_STREAM_CODE].01 ---
+  (geen task-bestanden gevonden voor [VALUE_STREAM_CODE].01)
+
+--- Fase: [VALUE_STREAM_CODE].02 ---
+  (geen task-bestanden gevonden voor [VALUE_STREAM_CODE].02)
+
+Totaal: 0 tasks uit 0 bestanden
+ERROR: Geen task-bestanden gevonden voor geconfigureerde fasen.

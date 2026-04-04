@@ -1,0 +1,28 @@
+
+Fetch ecosysteem-coordinator  |  bron: C:\git\mandarin-agents  ->  doel: C:\git\flora
+
+Opruimen bestaande bestanden:
+  ✗ Verwijderd: mandarin.ecosysteem-coordinator.aggregeer-tasks.prompt.md
+  ✗ Verwijderd: mandarin.ecosysteem-coordinator.genereer-instructies.prompt.md
+  ✗ Verwijderd: ecosysteem-coordinator.aggregeer-tasks.agent.md
+  ✗ Verwijderd: ecosysteem-coordinator.genereer-instructies.agent.md
+
+Prompts (2):
+  OK prompt: mandarin.ecosysteem-coordinator.aggregeer-tasks.prompt.md -> C:\git\flora\.github\prompts\mandarin.ecosysteem-coordinator.aggregeer-tasks.prompt.md
+  OK prompt: mandarin.ecosysteem-coordinator.genereer-instructies.prompt.md -> C:\git\flora\.github\prompts\mandarin.ecosysteem-coordinator.genereer-instructies.prompt.md
+
+Agent-contracten (2):
+  OK agent: ecosysteem-coordinator.aggregeer-tasks.agent.md -> C:\git\flora\.github\agents\ecosysteem-coordinator.aggregeer-tasks.agent.md
+  OK agent: ecosysteem-coordinator.genereer-instructies.agent.md -> C:\git\flora\.github\agents\ecosysteem-coordinator.genereer-instructies.agent.md
+
+Tasks (1 bronbestanden):
+  OK task-source: fnd-01.ecosysteem-coordinator.tasks.json
+  OK tasks.json: 1 tasks, 0 inputs -> C:\git\flora\.vscode\tasks.json
+
+------------------------------------------------------------
+Klaar voor ecosysteem-coordinator (fnd.01)
+  Prompts gekopieerd : 2
+  Agents gekopieerd  : 2
+  Tasks samengevoegd : 1
+  Log: logs\fetch-ecosysteem-coordinator-20260404-151721.log
+
