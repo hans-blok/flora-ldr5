@@ -113,6 +113,9 @@ nav:
   - Home: index.md
   - Mijn Planten & Borders: mijn-planten-borders.md
   - Mestplan: mestplan.md
+  - Plannen:
+    - Plan Border 1: plannen/plan-border-1.md
+    - Plan Border 11: plannen/plan-border-11.md
   - Boodschappen:
     - Boodschappen — april 2026: boodschappen/boodschappen-2026-04-04.md
 

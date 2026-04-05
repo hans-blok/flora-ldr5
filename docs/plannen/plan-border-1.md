@@ -37,6 +37,8 @@ De lavendel in border 1 is verhoüt en groeit slecht. Mos tussen de planten wijs
 **Keuze:** *Geranium* 'Rozanne' (ooievaarsbek)  
 **Motivering:** violet-blauwe bloemen contrasteren goed met witte gevel; verdraagt halfschaduw; bloeit juni–oktober; hoogte 30–50 cm, spreiding 60–80 cm; vaste plant, weinig onderhoud
 
+![Ooievaarsbek — Geranium 'Rozanne'](../assets/images/ooievaarsbek.jpg)
+
 | Eigenschap | Waarde |
 |-----------|--------|
 | Hoogte | 30–50 cm |
